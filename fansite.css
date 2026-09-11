@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {background-color: #4EA8DE; }
+#titel1 {font-size: 35px;}
+#inleiding {font-size: 23px;}
+#titel1 {background-color: #FFB03A;}
+#titel1 {height: 50px;
+color: #6d4108;
+}
+#bodysongs {background-image: url(images2/nova\ en\ victor.jpg);
+background-size: cover;
+}
+.songs {color: #4EA8DE;
+text-align: center;
+background-color: #1C2541;
+margin: 30px;
+}
+a {color: #4EA8DE;}
+a:hover {color: #FFB03A;}
+#bodyhome {background-image: url(images2/zombies\ 4\ poster2.webp);
+background-size: cover;
+}
+#inleiding {background-color: #4EA8DE;
+color: #1C2541;
+}
+#samenvatting {background-color: #4EA8DE;
+color: #1C2541;
+text-align: center;
+}
+.homelink {color: #1C2541;}
+.homelink:hover {color: #FFB03A;}
+#titel2 {font-size: 30px;
+text-align: center;
+color: #4EA8DE;
+background-color: #1C2541;
+}
+#cast {
+    background-color: #4EA8DE;
+    font-size: 23px;
+}
+#cast2 {
+    background-color: #4EA8DE;
+    text-align: center;
+}
+#grid {
+  background-color: #1C2541;
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: auto;
+  gap: 15px
+}
+#header {
+  grid-column: 1;
+  padding:15px
+}
+#navigatie {
+  display: flex;
+  flex-direction: 20px;
+  gap: 20px
+}
